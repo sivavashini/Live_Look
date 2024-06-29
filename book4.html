@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="VIJAY THAPA" />
+        <meta name="description" content="HOUSE RENTAL SYSTEM" />
+        <meta name="keywords" content="Give Your Keywords for SEO" />
+        
+        <title>HOUSE RENTAL SYSTEM</title>
+        <!--ADDING CSS HERE-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <style>
+            .vr-button {
+                background-color: green;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                margin-left: 10px;
+                font-size: 16px;
+            }
+            .vr-button:hover {
+                background-color: darkgreen;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--Header Starts HERE-->
+        <header class="header">
+            <div class="wrapper">
+                <h1>LIVELOOK-HOUSE RENTAL SYSTEM</h1>
+            </div>
+            
+        </header>
+        <!--Header Ends HERE-->
+        
+        <!--Menu Starts HERE-->
+        <nav class="menu">
+            <div class="wrapper">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About Us</li></a>
+                    <a href="#"><li>Houses</li></a>
+                    <a href="contact.html"><li>Contact Us</li></a>
+                    <a href="login.html"><li>Log In</li></a>
+                </ul>
+            </div>
+        </nav>
+        <!--Menu Ends HERE-->
+        
+        <!--Main Body Starts HERE-->
+        <div class="main">
+            <div class="wrapper">
+                <div class="book-house">
+                    <h3>Kumari House</h3>
+                    
+                    <!--House Details Here-->
+                    <img src="images/house4.jpg" alt="House Image" />
+                    <span class="house-added">03-03-2024</span><br />
+                    <span class="house-location">No.5A, Block C Salt Lake City, Sector V Kolkata</span><br />
+                    <span class="house-price">  INR 40000</span>
+                    <p>
+                        Discover your ideal rental home at No. 5A, Block C, Salt Lake City, Sector V, Kolkata. This inviting property offers two comfortable bedrooms, a fully equipped kitchen, a charming balcony, and a spacious hall, ensuring a perfect blend of convenience and relaxation for your living needs. Situated in the bustling and well-connected neighborhood of Salt Lake City, Sector V, this residence is designed to cater to your modern lifestyle.
+                    </p>
+                    <p>
+                        The two bedrooms provide a cozy retreat for rest and rejuvenation, while the kitchen is outfitted with all necessary appliances to make meal preparation a breeze. The balcony offers a pleasant space to enjoy your morning coffee or unwind in the evening. The expansive hall is ideal for hosting gatherings, family activities, or relaxing with your favorite book or show. Located in the thriving heart of Kolkata's IT hub, this rental home offers easy access to a plethora of dining, shopping, and entertainment options, making it a perfect choice for your next residence.
+                    </p>
+                </div>
+                
+                <!--Client Booking Detail Entry-->
+                <div class="booking-details">
+                    <h3>Your Booking Details</h3>
+                    <form>
+                        <span class="name">First Name</span>
+                        <input type="text" name="first_name" placeholder="First Name Please" required /><br />
+                        
+                        <span class="name">Last Name</span>
+                        <input type="text" name="last_name" placeholder="Last Name Please" required /><br />
+                        
+                        <span class="name">E-Mail</span>
+                        <input type="email" name="email" placeholder="E-Mail Please" required /><br />
+                        
+                        <span class="name">Contact No.</span>
+                        <input type="tel" name="contact" placeholder="Contact Number Please" required /><br />
+                        
+                        <span class="name">Address</span> 
+                        <textarea name="address" placeholder="Your Address Please" required></textarea><br />
+                        
+                        <input type="submit" name="submit" value="BOOK NOW" />
+                        <input type="reset" name="reset" value="RESET" />
+                        <button type="button" class="vr-button" onclick="window.location.href='thankyou.html'">VR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Main Body Ends HERE-->
+        
+        <!--Footer Starts HERE-->
+        <footer class="footer">
+            <div class="wrapper">
+                <p>&copy; <a href="#">LiveLook-House Rental System</a>. All rights reserved 2024.</p>
+            </div>
+        </footer>
+        <!--Footer Ends HERE-->
+    </body>
+</html>
